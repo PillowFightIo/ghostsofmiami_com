@@ -4,7 +4,7 @@
     <title>Ghosts of Miami</title>
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -13,8 +13,7 @@
 
 <header>
     <h1>Ghosts of Miami</h1>
-    <button type="button" class="language">Espa&ntilde;ol</button>
-    <button type="button" class="pause-toggle fa fa-play-circle-o">Play</button>
+    <a href="../es" class="button">Espa&ntilde;ol</a>
 </header>
 
 <div id="content">
@@ -43,20 +42,35 @@
     </div>
 
     <div id="latest" class="section">
+<?php
+    $request_url = 'http://ghostsofmiami.tumblr.com/api/read?type=post&start=0&num=1';
+    $rss = new DOMDocument();
+    $rss->load($request_url);
+    $feed = [];
+    foreach ($rss->getElementsByTagName('post') as $node) {
+        $post = [
+            'title' => $node->getElementsByTagName('regular-title')->item(0)->nodeValue,
+            'post' => $node->getElementsByTagName('regular-body')->item(0)->nodeValue,
+            'date' => $node->getAttribute('date-gmt')
+        ];
+        array_push($feed, $post);
+    }
+    $title = $feed[0]['title'];
+    $post = $feed[0]['post'];
+    $date = date('n.d.Y', strtotime($feed[0]['date']));
+?>
         <div class="container">
         <h2>Updates</h2>
-        <h3>Post Title</h3>
-        <span class="date">3.9.2016</span>
-        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        <a href="#" class="jump fa fa-caret-right">Read more on the dev blog</a>
+        <h3><?php echo $title; ?></h3>
+        <span class="date"><?php echo $date; ?></span>
+        <div class="post-content"><?php echo $post; ?></div>
         </div>
     </div>
 
     <div id="characters" class="section">
         <div class="container">
             <div class="character">
-                <div id="chelo" class="portrait"></div>
+                <div id="chelo" class="portrait"><img src="../img/chelo-shape.png"></div>
                 <div class="profile">
                     <h3>Consuelo &ldquo;Chelo&rdquo; Mart&iacute;nez</h3>
                     <div class="attribute"><span class="label">Age:</span> 23</div>
@@ -68,7 +82,7 @@
             </div>
 
             <div class="character">
-                <div id="luci" class="portrait"></div>
+                <div id="luci" class="portrait"><img src="../img/luci-shape.png"></div>
                 <div class="profile">
                     <h3>Luciana &ldquo;Luci&rdquo; Escobar</h3>
                     <div class="attribute"><span class="label">Age:</span> 24</div>
@@ -80,7 +94,7 @@
             </div>
 
             <div class="character">
-                <div id="ethan" class="portrait"></div>
+                <div id="ethan" class="portrait"><img src="../img/ethan-shape.png"></div>
                 <div class="profile">
                     <h3>Ethan Brown</h3>
                     <div class="attribute"><span class="label">Age:</span> 21</div>
@@ -93,7 +107,7 @@
             </div>
 
             <div class="character">
-                <div id="tala" class="portrait"></div>
+                <div id="tala" class="portrait"><img src="../img/tala-shape.png"></div>
                 <div class="profile">
                     <h3>Tala Nassiri</h3>
                     <div class="attribute"><span class="label">Age:</span> 18</div>
@@ -105,7 +119,7 @@
             </div>
 
             <div class="character">
-                <div id="janet" class="portrait"></div>
+                <div id="janet" class="portrait"><img src="../img/janet-shape.png"></div>
                 <div class="profile">
                     <h3>Janet Lessig</h3>
                     <div class="attribute"><span class="label">Age:</span> 30</div>
@@ -117,7 +131,7 @@
             </div>
 
             <div class="character">
-                <div id="richard" class="portrait"></div>
+                <div id="richard" class="portrait"><img src="../img/richard-shape.png"></div>
                 <div class="profile">
                 <h3>&ldquo;Richard&rdquo;</h3>
                     <div class="attribute"><span class="label">Age:</span> 52</div>
@@ -143,6 +157,10 @@
             <div class="credit">
                 <h3>Sprite Artist</h3>
                 <span class="name">Cassie Freire</span>
+            </div>
+            <div class="credit">
+                <h3>Environment Artist</h3>
+                <span class="name">Iasmin Omar Ata</span>
             </div>
             <div class="credit">
                 <h3>UX Artist & Programmer</h3>
