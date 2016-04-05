@@ -231,7 +231,8 @@
       margin-left: .5em; }
 
   #characters {
-    background-color: #CF0; }
+    background-image: -webkit-linear-gradient(#F6FD00, #FCBF03);
+    background-image: linear-gradient(#F6FD00, #FCBF03); }
 
   .character {
     clear: both;
@@ -245,7 +246,7 @@
     font-style: italic;
     margin: .8em 0;
     color: #FBFF00;
-    background: -webkit-linear-gradient(#0095FF, #FFB100);
+    background: -webkit-linear-gradient(#0095FF, #FF0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-right: .2em;

@@ -124,7 +124,7 @@
                     <div class="attribute"><span class="label">Ocupaci&oacute;n:</span> Travestido profesional</div>
                     <div class="attribute"><span class="label">Preoccupation:</span> El rizo de cabello perfecto</div>
                     <div class="attribute"><span class="label">Objectivo de vida:</span> Solamente a cuidarse y otros como ella.</div>
-                    <div class="quote">&ldquo;Soy el Pr&iacute;ncipe Azul que has estado buscando — que s&oacute;lo has estado buscando en la direcci&oacute;n equivocada.&rdquo;</div>
+                    <div class="quote">&ldquo;Soy el Pr&iacute;ncipe Azul que has estado buscando&mdash;que s&oacute;lo has estado buscando en la direcci&oacute;n equivocada.&rdquo;</div>
                 </div>
             </div>
 
@@ -161,7 +161,7 @@
                 <span class="name">Iasmin Omar Ata</span>
             </div>
             <div class="credit">
-                <h3>Artista de Fondos</h3>
+                <h3>Artista y Programador de UX</h3>
                 <span class="name">Kim Nguyen</span>
             </div>
             <div class="credit">

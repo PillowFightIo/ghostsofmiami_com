@@ -263,7 +263,7 @@
     }
 
     #characters {
-        background-color: $tertiary-tone;
+        @include background-image(linear-gradient(#F6FD00,#FCBF03));
     }
 
     .character {
@@ -281,7 +281,7 @@
         font-style: italic;
         margin: .8em 0;
         color: $yellow;
-        background: -webkit-linear-gradient(#0095FF, #FFB100);
+        background: -webkit-linear-gradient(#0095FF, #FF0000);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         padding-right: .2em;
