@@ -1,0 +1,54 @@
+@media screen and (max-width:600px) {
+
+    header button {
+        margin: (.5 * $base-line-height) 0;
+        height: .75 * $base-line-height;
+        line-height: .75 * $base-line-height !important;
+        vertical-align: bottom !important;
+    }
+
+    header h1 {
+        font-size: 1.25 * $base-font-size;
+        margin-left: .333em;
+    }
+
+    h1 {
+        padding: 1.5em .25em;
+    }
+
+    a.dev-blog {
+        margin: -5em auto 5em;
+    }
+
+    .section:not(#characters) .container {
+        padding: 0 1em;
+    }
+
+    .character {
+        text-align: center;
+        overflow: visible;
+    }
+
+    .character .portrait {
+        margin: 0 auto 2em !important;
+        float: none;
+    }
+
+    .character:nth-child(2n) {
+        text-align: center;
+
+        & .portrait {
+            float: none;
+        }
+
+        & .profile {
+            float: none;
+        }
+    }
+
+    .character .profile {
+        float: none;
+        max-width: 100%;
+    }
+
+}
