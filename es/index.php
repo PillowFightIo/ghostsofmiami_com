@@ -175,7 +175,7 @@
                 <h3>M&uacute;sica</h3>
                 <span class="name">Casey Yates</span>
             </div>
-            <p>GHOSTS OF MIAMI se presenta por PILLOWFIGHT GAMES, del equipo de desarrollo que te trajo WE KNOW THE DEVIL.</p>
+            <p>GHOSTS OF MIAMI se presenta por PILLOW FIGHT GAMES, del equipo de desarrollo que te trajo WE KNOW THE DEVIL.</p>
         </div>
     </div>
 

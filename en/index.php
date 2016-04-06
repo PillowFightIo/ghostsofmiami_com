@@ -176,7 +176,7 @@
                 <span class="name">Casey Yates</span>
                 <span class="name">Christopher D. Russell</span>
             </div>
-            <p>GHOSTS OF MIAMI is presented by PILLOWFIGHT GAMES, from the dev team that brought you WE KNOW THE DEVIL.</p>
+            <p>GHOSTS OF MIAMI is presented by PILLOW FIGHT GAMES, from the dev team that brought you WE KNOW THE DEVIL.</p>
         </div>
     </div>
 
