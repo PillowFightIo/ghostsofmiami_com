@@ -20,7 +20,7 @@
 <div id="content">
     <div id="title">
         <h1>Ghosts of Miami</h1>
-        <a href="#latest" class="dev-blog">Read the latest from the devs</a>
+        <a href="#latest" class="dev-blog">Blog</a>
     </div>
 
     <div id="intro" class="section">
