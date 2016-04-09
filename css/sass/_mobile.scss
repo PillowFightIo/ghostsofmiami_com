@@ -46,11 +46,17 @@
     .character {
         text-align: center;
         overflow: visible;
+        padding: 0;
     }
 
     .character .portrait {
-        margin: 0 auto 2em !important;
+        margin: 0 auto 1em !important;
         float: none;
+        width: 70%;
+    }
+
+    .character:not(:last-child) {
+        margin-bottom: 2em;
     }
 
     .character:nth-child(2n) {
