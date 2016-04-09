@@ -211,6 +211,10 @@
     border-top: 1px solid #ccc;
     padding-top: .333em; }
 
+  #latest a {
+    color: #0cb9bc;
+    text-decoration: none; }
+
   #latest .date {
     font-weight: 400;
     text-align: center;
@@ -248,7 +252,7 @@
     font-size: 30px;
     font-style: italic;
     margin: .8em 0;
-    color: #FBFF00;
+    color: #FF0000;
     background: -webkit-linear-gradient(#0095FF, #FF0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

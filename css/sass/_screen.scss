@@ -240,6 +240,11 @@
         padding-top: .333em;
     }
 
+    #latest a {
+        color: darken($primary-tone, 5%);
+        text-decoration: none;
+    }
+
     #latest .date {
         font-weight: 400;
         text-align: center;
@@ -284,7 +289,7 @@
         font-size: 1.5 * $base-font-size;
         font-style: italic;
         margin: .8em 0;
-        color: $yellow;
+        color: #FF0000;
         background: -webkit-linear-gradient(#0095FF, #FF0000);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
