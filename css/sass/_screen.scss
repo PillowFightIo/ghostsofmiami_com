@@ -217,6 +217,10 @@
         background-size: contain;
     }
 
+    #latest.section .container {
+        padding: 0 25%;
+    }
+
     #latest > * {
         position: relative;
         z-index: 1;

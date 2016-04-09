@@ -192,6 +192,9 @@
     transform: scaleX(-1);
     background-size: contain; }
 
+  #latest.section .container {
+    padding: 0 25%; }
+
   #latest > * {
     position: relative;
     z-index: 1; }
@@ -311,6 +314,21 @@
 
   .section:not(#characters) .container {
     padding: 0 1em; }
+
+  #latest {
+    overflow: hidden; }
+
+  #latest:before,
+  #latest:after {
+    width: 100%;
+    opacity: .2; }
+
+  #latest:before {
+    left: -40%;
+    top: -10%; }
+
+  #latest:after {
+    right: -40%; }
 
   .character {
     text-align: center;
