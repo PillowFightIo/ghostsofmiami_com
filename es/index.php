@@ -22,7 +22,7 @@
             <p>Ayuda Chelo a explorar las playas y los callejones de Miami en su tiempo m&aacute;s peligroso, tomando sus primeros casos como una investigadora privada. Tienes que elegir: &iquest;vas a pagar por debajo de la mesa al traficante turbio, o golpearlo para las respuestas? Cuando un extra&ntilde;o y guapo toca a la puerta de Chelo, &iquest;te ayudar&aacute; con la investigaci&oacute;n o te distraer&aacute; a otros campos? &iquest;Y podr&iacute;as encontrar su padre perdido, quien desapareci&oacute; sin ninguna palabra hace casi diez a&ntilde;os?</p>
 
 
-            <div class="vendors">Llegando en 2016 a<br>
+            <div class="vendors">Llegando en 2017 a<br>
                 <div class="logo">Steam</div>
                 <div class="logo">iOS</div>
                 <div class="logo">Google Play</div>

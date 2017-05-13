@@ -20,7 +20,7 @@
 
             <p>Help Chelo explore the beaches and back alleys of Miami at its most dangerous, investigating her very first cases as a private investigator. You make the decisions: do you bait the shady drug dealer, or beat the answers out of him? When that handsome stranger shows up at Chelo&rsquo;s door, will he help your case--or distract you from it? And will you be able to find Chelo&rsquo;s missing father, who disappeared without a word almost ten years ago? </p>
 
-            <div class="vendors">Coming 2016 to<br>
+            <div class="vendors">Coming 2017 to<br>
                 <div class="logo">Steam</div>
                 <div class="logo">iOS</div>
                 <div class="logo">Google Play</div>
