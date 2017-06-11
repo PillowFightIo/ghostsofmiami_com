@@ -13,7 +13,10 @@
 <div id="content">
     <div id="title">
         <h1>Ghosts of Miami</h1>
-        <a href="#latest" class="dev-blog">Blog</a>
+        <div class="top-links">
+            <a href="https://pillowfight.itch.io/ghosts-of-miami" target="_blank" class="dev-blog">Juega la Demo!</a><br>
+            <a href="#latest" class="dev-blog">Blog</a>
+        </div>
     </div>
 
     <div id="intro" class="section">
