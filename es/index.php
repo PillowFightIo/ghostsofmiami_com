@@ -149,7 +149,7 @@
                 <span class="name">Jo Fu</span>
             </div>
             <div class="credit">
-                <h3>Director Creativo</h3>
+                <h3>Líder técnico</h3>
                 <span class="name">Conrad Kreyling</span>
             </div>
             <div class="credit">
@@ -166,15 +166,23 @@
             </div>
             <div class="credit">
                 <h3>Consultores y Editores del Cuento</h3>
-                <span class="nane">Stella Ramirez</span>
                 <span class="name">Iasmin Omar Ata</span>
+                <span class="name">Magnolia Porter</span>
+                <span class="nane">Stella Ramirez</span>
                 <span class="name">Ryan Murphy</span>
             </div>
             <div class="credit">
                 <h3>M&uacute;sica</h3>
                 <span class="name">Casey Yates</span>
+                <span class="name">Matt “2 Mello” Hopkins</span>
             </div>
-            <p>GHOSTS OF MIAMI se presenta por PILLOW FIGHT GAMES, del equipo de desarrollo que te trajo WE KNOW THE DEVIL.</p>
+            <div class="credit">
+                <h3>Traductores</h3>
+                <span class="name">Stella Ramirez</span>
+                <span class="name">May King</span>
+            </div>
+            <p>GHOSTS OF MIAMI se presenta por <a href="http://pillowfight.io">PILLOW FIGHT GAMES</a>, del equipo de desarrollo que te trajo WE KNOW THE DEVIL.</p>
+            <p><a target="_blank" href="https://press.pillowfight.io/sheet.php?p=ghosts_of_miami">Presskit</a></p>
         </div>
     </div>
 

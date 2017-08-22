@@ -404,12 +404,17 @@
     margin: 0;
   }
 
-  /* line 358, sass/_screen.scss */
+  /* line 359, sass/_screen.scss */
+  #team a {
+    color: black;
+  }
+
+  /* line 363, sass/_screen.scss */
   #team .name {
     display: block;
   }
 
-  /* line 362, sass/_screen.scss */
+  /* line 367, sass/_screen.scss */
   #team .credit,
   #team .container > p {
     padding: 2em 1em 1em;

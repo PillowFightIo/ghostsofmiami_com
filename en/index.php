@@ -150,7 +150,7 @@
                 <span class="name">Jo Fu</span>
             </div>
             <div class="credit">
-                <h3>Creative Director</h3>
+                <h3>Technical Lead</h3>
                 <span class="name">Conrad Kreyling</span>
             </div>
             <div class="credit">
@@ -162,21 +162,28 @@
                 <span class="name">Iasmin Omar Ata</span>
             </div>
             <div class="credit">
-                <h3>UX Artist & Programmer</h3>
+                <h3>UX Artist &amp; Programmer</h3>
                 <span class="name">Kim Nguyen</span>
             </div>
             <div class="credit">
                 <h3>Story Consultants/Editors</h3>
-                <span class="nane">Stella Ramirez</span>
                 <span class="name">Iasmin Omar Ata</span>
+                <span class="name">Magnolia Porter</span>
+                <span class="nane">Stella Ramirez</span>
                 <span class="name">Ryan Murphy</span>
             </div>
             <div class="credit">
                 <h3>Music</h3>
                 <span class="name">Casey Yates</span>
-                <span class="name">Christopher D. Russell</span>
+                <span class="name">Matt “2 Mello” Hopkins</span>
             </div>
-            <p>GHOSTS OF MIAMI is presented by PILLOW FIGHT GAMES, from the dev team that brought you WE KNOW THE DEVIL.</p>
+            <div class="credit">
+                <h3>Translators</h3>
+                <span class="name">Stella Ramirez</span>
+                <span class="name">May King</span>
+            </div>
+            <p>GHOSTS OF MIAMI is presented by <a href="http://pillowfight.io">PILLOW FIGHT GAMES</a>, from the dev team that brought you WE KNOW THE DEVIL.</p>
+            <p><a target="_blank" href="https://press.pillowfight.io/sheet.php?p=ghosts_of_miami">Presskit</a></p>
         </div>
     </div>
 
