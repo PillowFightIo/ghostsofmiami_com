@@ -12,9 +12,14 @@
     <div id="title">
         <h1>Ghosts of Miami</h1>
         <div class="top-links">
-            <a href="https://pillowfight.itch.io/ghosts-of-miami" target="_blank" class="dev-blog">Play the Demo</a><br>
-            <a href="https://press.pillowfight.io/sheet.php?p=ghosts_of_miami" target="_blank" class="dev-blog">Presskit</a><br>
-            <a href="#latest" class="dev-blog">Blog</a>
+            <div>Available now:</div>
+            <a href="http://store.steampowered.com/app/677300/Ghosts_of_Miami/" class="dev-blog">Steam</a>
+            <a href="https://pillowfight.itch.io/ghosts-of-miami" class="dev-blog">Itch.io</a>
+            <a href="https://www.humblebundle.com/store/ghosts-of-miami" class="dev-blog">Humble</a>
+
+            <!-- <a href="https://pillowfight.itch.io/ghosts-of-miami" target="_blank" class="dev-blog">Play the Demo</a><br> -->
+            <!-- <a href="https://press.pillowfight.io/sheet.php?p=ghosts_of_miami" target="_blank" class="dev-blog">Presskit</a><br> -->
+            <!-- <a href="#latest" class="dev-blog">Blog</a> -->
         </div>
     </div>
 
@@ -23,7 +28,6 @@
             <p><span class="drop-caps">Miami, 1986</span> On average, one person is murdered every day in Dade County. Between the drug cartels, the AIDS epidemic, and a flood of undocumented immigrants, hundreds more will vanish, never to be seen again. Chelo Mart&iacute;nez finds the people who slip through the cracks. </p>
 
             <p>Help Chelo explore the beaches and back alleys of Miami at its most dangerous, investigating her very first cases as a private investigator. You make the decisions: do you bait the shady drug dealer, or beat the answers out of him? When that handsome stranger shows up at Chelo&rsquo;s door, will he help your case--or distract you from it? And will you be able to find Chelo&rsquo;s missing father, who disappeared without a word almost ten years ago? </p>
-
             <div class="vendors">Available now on<br>
                 <a href="http://store.steampowered.com/app/677300/Ghosts_of_Miami/" class="logo">Steam</a>
                 <a href="https://pillowfight.itch.io/ghosts-of-miami" class="logo">Itch.io</a>
@@ -32,12 +36,10 @@
                 <!-- <div class="logo">Google Play</div> -->
                 <div class="languages">in English, Spanish, and Traditional Chinese</div>
             </div>
-
         </div>
     </div>
-
-    <div id="latest" class="section">
-<?php
+    <!-- div id="latest" class="section" -->
+<?php /*
     $request_url = 'http://ghostsofmiami.tumblr.com/api/read?type=post&start=0&num=1';
     $rss = new DOMDocument();
     $rss->load($request_url);
@@ -60,7 +62,9 @@
         <span class="date"><?php echo $date; ?></span>
         <div class="post-content"><?php echo $post; ?></div>
         </div>
-    </div>
+
+        */?>
+    <!-- /div -->
 
     <div id="characters" class="section">
         <div class="container">

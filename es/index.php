@@ -14,29 +14,32 @@
     <div id="title">
         <h1>Ghosts of Miami</h1>
         <div class="top-links">
-            <a href="https://pillowfight.itch.io/ghosts-of-miami" target="_blank" class="dev-blog">Juega la Demo</a><br>
-            <a href="https://press.pillowfight.io/sheet.php?p=ghosts_of_miami" target="_blank" class="dev-blog">Presskit</a><br>
-            <a href="#latest" class="dev-blog">Blog</a>
+            <a href="http://store.steampowered.com/app/677300/Ghosts_of_Miami/" class="dev-blog">Steam</a>
+            <a href="https://pillowfight.itch.io/ghosts-of-miami" class="dev-blog">Itch.io</a>
+            <a href="https://www.humblebundle.com/store/ghosts-of-miami" class="dev-blog">Humble</a>
+            <!-- <a href="https://pillowfight.itch.io/ghosts-of-miami" target="_blank" class="dev-blog">Juega la Demo</a><br> -->
+            <!-- <a href="https://press.pillowfight.io/sheet.php?p=ghosts_of_miami" target="_blank" class="dev-blog">Presskit</a><br> -->
+            <!-- <a href="#latest" class="dev-blog">Blog</a> -->
         </div>
     </div>
 
     <div id="intro" class="section">
         <div class="container">
+
             <p><span class="drop-caps">Miami, 1986</span> Como promedio, una persona es asesinada cada d&iacute;a en Dade County. Entre carteles de drogas, la epidemia del SIDA y una inundaci&oacute;n de inmigrantes indocumentados, cientos m&aacute;s se desvanecer&aacute;n, nunca visto otra vez. <strong>Chelo busca los que han sido olvidados.</strong></p>
             <p>Ayuda Chelo a explorar las playas y los callejones de Miami en su tiempo m&aacute;s peligroso, tomando sus primeros casos como una investigadora privada. Tienes que elegir: &iquest;vas a pagar por debajo de la mesa al traficante turbio, o golpearlo para las respuestas? Cuando un extra&ntilde;o y guapo toca a la puerta de Chelo, &iquest;te ayudar&aacute; con la investigaci&oacute;n o te distraer&aacute; a otros campos? &iquest;Y podr&iacute;as encontrar su padre perdido, quien desapareci&oacute; sin ninguna palabra hace casi diez a&ntilde;os?</p>
 
-            <div class="vendors">Llegando en 2017 a<br>
+            <div class="vendors">disponible ahora<br>
                 <a href="http://store.steampowered.com/app/677300/Ghosts_of_Miami/" class="logo">Steam</a>
                 <a href="https://pillowfight.itch.io/ghosts-of-miami" class="logo">Itch.io</a>
                 <a href="https://www.humblebundle.com/store/ghosts-of-miami" class="logo">Humble Store</a>
                 <div class="languages">en ingl&eacute;s, espa&ntilde;ol, o chino tradicional.</div>
             </div>
-
         </div>
     </div>
 
-    <div id="latest" class="section">
-<?php
+    <!-- div id="latest" class="section" -->
+<?php /*
     $request_url = 'http://ghostsofmiami.tumblr.com/api/read?type=post&start=0&num=1';
     $rss = new DOMDocument();
     $rss->load($request_url);
@@ -59,7 +62,8 @@
         <span class="date"><?php echo $date; ?></span>
         <div class="post-content"><?php echo $post; ?></div>
         </div>
-    </div>
+        */ ?>
+    <!-- /div -->
 
     <div id="characters" class="section">
         <div class="container">
